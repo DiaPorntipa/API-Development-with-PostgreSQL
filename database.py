@@ -2,7 +2,6 @@
 # 1. Establish connection to the PostgreSQL database.
 # 2. Create Base class of all database models
 # 3. Prepare database session dependency.
-
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
